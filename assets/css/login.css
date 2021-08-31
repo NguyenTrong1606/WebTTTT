@@ -1,0 +1,128 @@
+
+
+.content{
+    position: relative;
+    display: block;
+}
+
+.content .img-logo{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 45%;
+    background-image: url(../img/logo.png);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+
+}
+
+
+.content  .login-content{
+    position: absolute;
+    top:100%;
+    width: 100%;
+    height: 450px;
+    margin: 10px 0;
+    /* padding: 0 10%; */
+    /* background-image: url(../img/bia-login.png) ;
+    background-size: contain;
+    background-repeat: no-repeat ;
+    background-origin: content-box; */
+    background-color: #42CBFE;
+    background-clip: content-box; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.login-content .bia-login{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 25%;
+    min-width: 280px;
+    height: 70%;
+    background-image: url(../img/bia-login2.png) ;
+    background-size: contain;
+    background-repeat: no-repeat ;
+    background-origin: content-box;
+}
+
+.login-content .box-confirm,
+.login-content .box-login{
+
+    width: 50%;
+    min-width: 380px;
+    max-width: 450px;
+    height: 75%;
+    padding: 10px;
+    background: rgba(255, 255 , 255, 0.95);
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 38px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 5;
+
+}
+
+
+.login-content .box-confirm.open,
+.login-content .box-login.open{
+    display: flex;
+}
+
+.box-login .modal-lable{
+    /* display: block; */
+    font-size: 20px;
+}
+
+.box-login .modal-input{
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 90%;
+}
+
+.box-login #login{
+    font-size: 20px;
+    width: 50%;
+    margin: 15px;
+
+    background-color: #42CBFE;
+    border-radius: 16px
+
+}
+
+.box-login .modal-forgot-pass{
+    padding-left: 45%;
+}
+
+.box-login .dang-ky{
+    margin: 10px;
+}
+
+.box-login a:hover{
+    color: red;
+}
+
+.box-confirm >img{
+    width: 100px;
+    margin-bottom: 30px;
+
+}
+
+.box-confirm .text{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
