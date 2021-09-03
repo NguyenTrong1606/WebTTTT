@@ -60,7 +60,7 @@
     max-width: 450px;
     height: 75%;
     padding: 10px;
-    background: rgba(255, 255 , 255, 0.95);
+    background: #F5F5F5;
     mix-blend-mode: normal;
     opacity: 0.8;
     box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.25);
@@ -79,12 +79,12 @@
     display: flex;
 }
 
-.box-login .modal-lable{
+.box-login .item-lable{
     /* display: block; */
     font-size: 20px;
 }
 
-.box-login .modal-input{
+.box-login .item-input{
     border-radius: 5px;
     font-size: 16px;
     padding: 10px;
@@ -101,17 +101,22 @@
 
 }
 
-.box-login .modal-forgot-pass{
+.box-login .item-forgot-pass{
     padding-left: 45%;
+}
+
+.box-login a{
+    text-decoration: none;
+}
+
+.box-login a:hover{
+    color: red;
 }
 
 .box-login .dang-ky{
     margin: 10px;
 }
 
-.box-login a:hover{
-    color: red;
-}
 
 .box-confirm >img{
     width: 100px;
